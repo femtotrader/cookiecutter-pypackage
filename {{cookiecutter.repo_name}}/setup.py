@@ -128,7 +128,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            '{{ cookiecutter.project_slug }}={{ cookiecutter.project_slug }}.cli.{{ cookiecutter.project_slug }}:main',
+            '{{ cookiecutter.project_slug }}={{ cookiecutter.project_slug }}.cli.{{ cookiecutter.project_slug }}_cli:main',
         ],
     },
 )
